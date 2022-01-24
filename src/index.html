@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 id="title">? Michael ?</h1>
+    <img id="player_sprite" src='img/player_s_anim.gif' style="display: none;">
+    <img id="wall" src="img/wall.png" style="display: none;">
+    <div id="container">
+      <canvas id="game_canvas" width="1600" height="791"></canvas>
+      <canvas id="hitTestCanvas" width="1600" height="791"></canvas>
+      <pre id="overlay" onclick="remove_overlay()"></pre>
+    </div>
+    <script type="module" defer src="js/main.js"></script>
+    <script>
+      function remove_overlay(){
+        let element = document.getElementById("overlay")
+        element.style.display="none";
+      }
+    </script>
+  </body>
+</html>
