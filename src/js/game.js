@@ -1,5 +1,4 @@
-import { randInt } from './functions/random_int.js';
-import { detectCollision } from './functions/detect_collision.js';
+
 import InputHandler from './input/input_handle.js';
 import Player from './objects/player.js';
 import Button from './classes/button.js';

@@ -1,5 +1,3 @@
-import { detectCollision, testCollide } from "../functions/detect_collision.js";
-
 export default class Wall {
 	constructor(game) {
 		this.image = document.getElementById("wall");
